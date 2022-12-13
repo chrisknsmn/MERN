@@ -1,10 +1,10 @@
-# Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MERN - CRUD Template
+This is a template for a Web Application with CRUD(Create, Read, Update and Delete) functionality, using the MERN(MongoDB, Express, React and Node.js) stack.
 
 ## backend
 ### `MongoDB`
 The backend uses Node.js and Express to connect to a MongoDb database. 
-
+> Installing MongoDb on a mac - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
 Start MongoDB on a mac using homebrew with the following command:
 ```
 brew services start mongodb-community@6.0
@@ -43,5 +43,3 @@ npm start
 This will begin to run the frontend app at [http://localhost:3000/](http://localhost:3000/)
 
 With both frontend and backend apps running you will be able to connect to read and write to the database from the browser. Use the select dropdown to view a list of all users or select the '+' button to the right to input a new name. 
-
-
