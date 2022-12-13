@@ -4,7 +4,9 @@ This is a template for a Web Application with CRUD(Create, Read, Update and Dele
 ## backend
 ### `MongoDB`
 The backend uses Node.js and Express to connect to a MongoDb database. 
+
 > Installing MongoDb on a mac - https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
+
 Start MongoDB on a mac using homebrew with the following command:
 ```
 brew services start mongodb-community@6.0
