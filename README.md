@@ -30,6 +30,10 @@ The page should display:
 > Hello World! running at 4000
 
 ## frontend
+This is a frontend template built from create-react-app
+
+> https://create-react-app.dev/docs/getting-started
+
 ### `npm install`
 Move to the frontend folder and run the following command to install the necessary dependencies:
 ```

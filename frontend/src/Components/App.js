@@ -40,26 +40,8 @@ class App extends React.Component {
     })
   }
 
-  test() {
-    console.log(1);
-  }
-
   render () {
     return (
-
-      // <div className="container">
-
-      //   <Nav />
-
-      //   <UserList users={this.state.Users} UpdateCurrentUser={this.UpdateCurrentUser} />
-
-      //   <UserSingle user={this.state.currentUser} />
-
-      //   <CreateUser />
-
-      //   <UpdateUser user={this.state.currentUser} />
-
-      // </div>
 
     <BrowserRouter>
       <div className='container'>
