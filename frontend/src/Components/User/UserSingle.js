@@ -23,7 +23,7 @@ const UserSingle = (props) => {
     }
 
     function back() {
-        window.location.href = "/";
+        navigate('/');
     }
 
     function update() {
@@ -46,13 +46,15 @@ const UserSingle = (props) => {
                     </div>
                 </div>
 
-                <button className="submit-btn del back" onClick={update}>Update</button>
-
                 <h2>DELETE USER</h2>
                 <div className='btn-container'>
+
+                    <button className="submit-btn sub upd" onClick={update}>Update</button>
                     <button className="btn-del del" onClick={DeleteUser}>Delete</button>
                     <button className="submit-btn del back" onClick={back}>Back</button>
+
                 </div>
+
             </div>
         </section>
     );

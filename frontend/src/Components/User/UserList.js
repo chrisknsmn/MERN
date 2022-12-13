@@ -28,7 +28,6 @@ const UserList = (props) => {
                             </option>
                         ))}
                     </select>
-
                     <button className='sub' onClick={create}>
                         +
                     </button>

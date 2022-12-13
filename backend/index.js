@@ -24,9 +24,9 @@ app.use(cors());
 routes(app);
 
 app.get('/', (req, res) => 
-    res.send(`Hello World! runninf at ${PORT}`)
+    res.send(`Hello World! running at ${PORT}`)
 );
 
 app.listen(PORT, () => 
-    console.log(`Hello World! runninf at ${PORT}`)
+    console.log(`Hello World! running at ${PORT}`)
 );
