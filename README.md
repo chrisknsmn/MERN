@@ -45,3 +45,5 @@ npm start
 This will begin to run the frontend app at [http://localhost:3000/](http://localhost:3000/)
 
 With both frontend and backend apps running you will be able to connect to read and write to the database from the browser. Use the select dropdown to view a list of all users or select the '+' button to the right to input a new name. 
+
+![Screenshot 2022-12-13 at 2 35 24 PM](https://user-images.githubusercontent.com/116185710/207428318-a03746cb-642e-42d4-8da0-eccc25c3770d.png)
